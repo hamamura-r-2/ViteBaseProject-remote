@@ -1,9 +1,11 @@
 <script setup>
-
+import Base from './components/Base.vue';
+import BaseComponent from "./components/BaseComponent.vue"
 </script>
 
 <template>
-ここにコンポーネント置いていく
+  <Base />
+  <BaseComponent />
 </template>
 
 <style>
@@ -14,5 +16,14 @@
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+h1{
+  font-size:60px;
+}
+h3{
+  width:fit-content;
+  margin-right:auto;
+  margin-left:auto;
+  background-color:rgba(30,155,175,0.5);
 }
 </style>
