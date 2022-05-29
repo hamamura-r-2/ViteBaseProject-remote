@@ -1,3 +1,4 @@
+<!-- クラスとID、スタイルを渡すpropsのサンプルコンポーネント -->
 <script>
 export default {
   inheritAttrs: false,

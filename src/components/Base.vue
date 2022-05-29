@@ -34,7 +34,7 @@
 
 
 <template>
-    <h1>ディレクティブを使用</h1>
+    <h1>ディレクティブを使用（Base.vueでbase.jsも使用）</h1>
 
     <h3>v-thmlで表示</h3>
     <div v-html="message"></div>

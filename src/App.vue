@@ -22,6 +22,7 @@ h1{
 }
 h3{
   width:fit-content;
+  margin-top:50px;
   margin-right:auto;
   margin-left:auto;
   background-color:rgba(30,155,175,0.5);
