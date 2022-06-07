@@ -80,7 +80,7 @@ provide("claim",changeLegacy);
 
 
 <template>
-    <h1>コンポーネントの利用（BaseComponent.vueで各コンポーネントファイルを使用）</h1>
+    <h1>ここからBaseComponentコンポーネント</h1>
 
     <h3>コンポーネントの配置sample-component1,sample-component2</h3>
     <sample-component1 />
