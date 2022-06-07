@@ -4,11 +4,17 @@ import BaseComponent from "./components/BaseComponent.vue"
 </script>
 
 <template>
-  <Base />
+<h2>ディレクティブを使用（Base.vueでbase.jsも使用）</h2>
+<h3>h３　ルート階層</h3>
+ <div>
+   <h3>h３　1つ下階層</h3>
+   <Base class="Base" />
+ </div>
+<h2>コンポーネントの利用（BaseComponent.vueで各コンポーネントファイルを使用）</h2>
   <BaseComponent />
 </template>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,5 +32,8 @@ h3{
   margin-right:auto;
   margin-left:auto;
   background-color:rgba(30,155,175,0.5);
+}
+* /deep/ h3{
+  color:red;
 }
 </style>
